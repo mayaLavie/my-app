@@ -1,0 +1,51 @@
+
+
+.page{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: black ;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   object-fit: contain;
+}
+
+.card{
+    border-radius: 20px !important;
+    background-color: rgb(8, 8, 8) !important;
+    width: 20cm
+}
+
+.page> h1 {
+    color: #e2e2e2;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 70px;
+}
+
+
+
+.page > h3 {
+    font-family: 'Oswald', sans-serif;
+    color:rgb(185, 185, 185);
+}
+
+
+.card-text > h4 {
+    font-family: 'Montserrat', sans-serif;
+    color:whitesmoke;
+    font-size: 21px;;
+    padding-top: 0.2rem;
+    line-height: 1.8rem;
+
+}
+
+.skills{
+    /* color:#FF449F !important; */
+    /* background-color:  var(--gradient) !important; */
+    background-image: var(--gradient);
+    background-clip: text;
+    color : transparent;
+
+}

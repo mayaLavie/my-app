@@ -1,0 +1,43 @@
+:root {
+  --gradient: linear-gradient(
+    45deg,
+      #2be4a9,
+    #eff161,
+    
+    #f360df 
+    /* #A3DDCB,
+    #E8E9A1,
+    
+    #df73d1 */
+  );
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.home > h1 {
+  font-size: 60px;
+  margin-top: -85px;
+  font-family: 'Oswald', sans-serif;
+  background-image: var(--gradient);
+  background-clip: text;
+  color: transparent;
+  line-height: 1.2;
+}
+
+
+
+.home > p {
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+

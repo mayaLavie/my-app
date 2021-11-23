@@ -1,0 +1,76 @@
+:root {
+  --gradientt: linear-gradient(
+    45deg,
+    #a3195e,
+    rgb(104, 0, 145),
+    #005766,
+    #054805
+  );
+}
+
+
+
+.ProjectsBody {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  line-height: 1.6;
+  color: #ddd;
+  background-size: 300%;
+  background-image: var(--gradientt);
+  animation: bg-animation 18s infinite; 
+  /* background: linear-gradient(to bottom,  
+  #000,
+  rgb(49, 2, 68),
+  rgb(104, 0, 145),
+  #b31a66,
+  #005766,
+  rgb(30, 67, 73),
+  #000
+
+  );
+ */
+}
+
+@keyframes bg-animation {
+  0% {background-position: left;}
+  50% {background-position: right;}
+  100% {background-position: left;}
+}
+
+.card-body {
+  border-radius: 12px;
+  transition: 0.5s ease;
+  text-decoration: none;
+
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-body:hover {
+  /* transform: translateY(-15px);
+  transition: transform .3s; */
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px black(0, 0, 0, 0.6);
+}
+
+.marge {
+  margin-top: 150px;
+}
+
+.Head {
+  color: #ffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 33px;
+}

@@ -1,0 +1,38 @@
+
+.bg-img{
+ clip-path: circle();
+ width: 15%;
+}
+
+.About {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: black ;
+  }
+
+  .About > h1 {
+    color: #fff0fc;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .About > h3 {
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5rem;
+    line-height: 1.8rem;
+  }
+  
+  .About > h2 {
+    /* color: #df73d1; */
+    /* font-family: 'Oswald', sans-serif; */
+    background-image: var(--gradient);
+    background-clip: text;
+    color : transparent;
+  }
+
+  
+   
+  
