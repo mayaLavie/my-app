@@ -12,9 +12,9 @@ const AboutComp = () => {
          <br/><br/>
             <h1>I'm Maya, </h1>
             <h2>Looking for my first Opportunity.</h2>
-            <h3>I am proud to say that I have always put my heart into my work.<br/> In the last few years I learned that I am a very ambitious person,
-              and if i want something I can really make it happen.<br/>
-              I love working with people, and where ever I go, my colleagues ARE my tribe and family.<br/>
+            <h3>I'm proud to say that I have always put my heart into my work.<br/> In the last few years I learned that I am a very ambitious person,
+              and I can really make things happen.<br/>
+              I love working with people, and where ever I go, my colleagues always become my tribe and family.<br/>
               These days, I spend my time learning, improving my craft and expanding my knowledge.<br/>
             </h3>
                 

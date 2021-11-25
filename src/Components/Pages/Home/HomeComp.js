@@ -10,7 +10,7 @@ class HomeComp extends Component {
 
           <h1>Hi, I'm Maya Lavie.<br/>
           A Full Stack Developer.</h1>
-          <p>"the positive vibes we keep creating"</p>
+          <p> "If you'll book them, they will come"</p>
          
         </div>
   
