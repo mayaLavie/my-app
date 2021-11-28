@@ -15,10 +15,10 @@ function App () {
            <NavbarComp/>
                 <Switch>
                 <Route exact path="/" component={HomeComp} />
-                <Route exact path="/About" component={AboutComp} />
-                <Route exact path="/Education" component={EducationComp} />
-                <Route exact path="/Projects" component={ProjectsComp} />
-                <Route exact path="/Contacts" component={ContactsComp} />
+                <Route  path="/About" component={AboutComp} />
+                <Route  path="/Education" component={EducationComp} />
+                <Route  path="/Projects" component={ProjectsComp} />
+                <Route  path="/Contacts" component={ContactsComp} />
               </Switch>
       </Router>
    </div>
